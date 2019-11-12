@@ -37,13 +37,11 @@ def new_character():
     global gender
     global age
 
-    gender = "not chosen"
     while not (gender == "man" or gender == "woman"):
         gender = input("Choose gender (man/woman): ")
     
     print("You chose a " + gender)
     
-    age = "not chosen"
     while not (age == "young" or age == "adult" or age == "old" or age == "ancient"):
         age = input("Choose age group (young/adult/old/ancient): ")
     
