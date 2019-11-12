@@ -68,5 +68,4 @@ def exit_game():
 # Null/nil: Intet, hvis en variabel ikke er sat til noget er den det her
 
 # rør ikke ved denne!! udråbstegn 
-if __name__ == "__main__":
-    main()
+main()
